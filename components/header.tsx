@@ -8,16 +8,16 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Code2 className="h-6 w-6" />
-            <span className="text-xl font-semibold">RemoteDevs</span>
+            <span className="text-xl font-semibold">Remote Developers List</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            {/* <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Developers
             </Link>
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               About
-            </Link>
+            </Link> */}
             <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Contact
             </Link>
